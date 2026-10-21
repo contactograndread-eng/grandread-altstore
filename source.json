@@ -1,0 +1,37 @@
+{
+  "name": "GrandRead",
+  "subtitle": "Lector PDF y herramientas de estudio",
+  "description": "Fuente oficial de pruebas de GrandRead para AltStore Classic. Versión inicial de iOS todavía sin pruebas en dispositivo real. La IA incluida requiere completar App Check de Apple.",
+  "iconURL": "https://raw.githubusercontent.com/contactograndread-eng/grandread-altstore/main/icon.png",
+  "website": "https://github.com/contactograndread-eng/grandread-altstore",
+  "apps": [
+    {
+      "name": "GrandRead",
+      "bundleIdentifier": "cl.grandread.app",
+      "developerName": "GrandRead",
+      "subtitle": "Lee, anota y estudia tus PDFs",
+      "localizedDescription": "Lector PDF con anotaciones, lectura en voz alta y herramientas de estudio. Esta es una versión de prueba para iOS: la compilación terminó correctamente, pero aún no se ha probado su instalación ni funcionamiento en un iPhone. El inicio de sesión debe verificarse después de la firma de AltStore. La IA de GrandRead puede no estar disponible hasta completar la configuración de App Check de Apple.",
+      "iconURL": "https://raw.githubusercontent.com/contactograndread-eng/grandread-altstore/main/icon.png",
+      "category": "utilities",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "buildVersion": "1",
+          "marketingVersion": "1.0.0 — Prueba inicial",
+          "date": "2026-10-20",
+          "localizedDescription": "Primera compilación de prueba para iOS. Requiere la firma e instalación con AltStore Classic. Pendiente de validación en un iPhone real y de configuración de App Check para la IA incluida.",
+          "downloadURL": "https://github.com/contactograndread-eng/grandread-altstore/releases/download/v1.0.0-prueba.1/GrandRead-prueba-sin-firma.ipa",
+          "size": 54993130,
+          "minOSVersion": "15.5"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSPhotoLibraryUsageDescription": "Para elegir una imagen de fondo para tu biblioteca."
+        }
+      }
+    }
+  ],
+  "news": []
+}
